@@ -1,0 +1,117 @@
+.services {
+    background-color: #f3f2f28a;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.services-title {
+    color: #3D37F1;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.services-text-big {
+    font-size: 24px;
+    color: #5A5454;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.services-text-small {
+    font-size: 14px;
+    color: #5A5454;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.tiles {
+    width: 655px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.tile {
+    width: 200px;
+    height: 250px;
+    margin: 8px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.tile > img{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.tile-1 {
+    background-image: linear-gradient(to top right, #f89735, #f3c79c);
+    
+}
+.tile-1:hover {
+    background-image: linear-gradient(to top right, #fd7f00, #fabd7f);
+}
+
+
+.tile-2 {
+    background-image: linear-gradient(to top right, #1b82d6, #6df5f0);
+}
+.tile-2:hover {
+    background-image: linear-gradient(to top right, #318eda, #27d4cf);
+}
+
+
+.tile-3 {
+    background-image: linear-gradient(to top right, #3c276e, #8b76bb);
+}
+.tile-3:hover {
+    background-image: linear-gradient(to top right, #28135a, #6b5799);
+}
+
+
+.tile-4 {
+    background-image: linear-gradient(to top right, #0b5bb6, #4386D2);
+}
+.tile-4:hover {
+    background-image: linear-gradient(to top right, #094e9c, #225a9b);
+}
+
+
+.tile-5 {
+    background-image: linear-gradient(to top right, #615ce9, #b8b6f8);
+}
+.tile-5:hover {
+    background-image: linear-gradient(to top right, #3c38aa, #7d7bd1);
+}
+
+
+.tile-6 {
+    background-image: linear-gradient(to top right, #fd4c58, #ffaeb3);
+}
+.tile-6:hover {
+    background-image: linear-gradient(to top right, #c5242f, #d1777d);
+}
+
+
+.tile-title {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.tile-subtitle {
+    margin-right: 15px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+}

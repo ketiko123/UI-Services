@@ -1,0 +1,37 @@
+.description {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.description-text-box {
+    width: 50%;
+}
+
+.description-text {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.description-text-big {
+    font-size: 38px;
+    width: 50%;
+    font-weight: bold;
+    color: #534D4D;
+}
+
+.description-text-small {
+    font-size: 14px;
+    color: #534D4D;
+    margin-top: 20px;
+}
+
+.description-img-box {
+    width: 50%;
+}
+
+.description-img {
+    width: 90%;
+}
